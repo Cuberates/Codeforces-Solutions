@@ -10,8 +10,8 @@ void solution() {
 	   - let's call it a -. 
 	   This is because after the operation, the new sum S = 2*(b-a) has to be larger or equal to the previous
 	   sum S' = a+b. This can be represented by the inequality: 2*(b-a) >= a+b.
-	   After simplification, we have b >= 3a. Now, we can just evaluate b for the next N-1 elements. For each
-	   iteration, we let b = 3*a.
+	   After simplification, we have b >= 3a. Now, we can just evaluate b for the next N-1 elements. Starting
+	   from a = 1, for each iteration, we let b = 3*a.
 	   If b > 1e9 -> There is no counter example */
 
 	long long cur_val = 1, possible = 1; vector<long long> ans;
