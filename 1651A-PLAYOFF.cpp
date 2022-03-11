@@ -1,4 +1,4 @@
-// 1651A_PLAYOFF
+// 1651A-PLAYOFF
 #include <bits/stdc++.h>
 
 using namespace std;
