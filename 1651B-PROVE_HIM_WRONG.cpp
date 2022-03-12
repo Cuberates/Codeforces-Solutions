@@ -6,7 +6,8 @@ using namespace std;
 void solution() { 
 	long long N; cin >> N; long long MAX_VAL = 1e9;
 
-	/* The next element - let's call it b - must be larger than or equal to 3 times the previous element 
+	/* Let's observe an array of size 2. This can be extended for every other case.
+	   The next element - let's call it b - must be larger than or equal to 3 times the previous element 
 	   - let's call it a -. 
 	   This is because after the operation, the new sum S = 2*(b-a) has to be larger or equal to the previous
 	   sum S' = a+b. This can be represented by the inequality: 2*(b-a) >= a+b.
