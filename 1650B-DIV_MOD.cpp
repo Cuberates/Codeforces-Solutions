@@ -41,7 +41,7 @@ void solution() { // CUBERATES - THE WORST PROGRAMMER OF ALL TIME
 	   x mod a, but sacrificing the value of floor(x/a), or
 	   Fa(R) - getting the maximum floor(x/a), but sacrificing
 	   the value of x mod a. The answer is simply the
-	   maximum value of the  two choices, we have the answer.
+	   maximum value of the two choices.
 		
 	   Implementation: O(1);	
 	   */
